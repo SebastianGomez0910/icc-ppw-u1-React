@@ -1,10 +1,12 @@
 import './App.css'
+import HelloWord from './components/HelloWord'
+import StatusBanner from './components/StatusBanner';
 
 function App() {
   return (
-    <div className='app'>
-      <h1>ReactStore</h1>
-      <p>Proyecto en construccion...</p>
+    <div className="app">
+      <HelloWord/>
+      <StatusBanner/>
     </div>
   )
 }
